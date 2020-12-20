@@ -5,6 +5,7 @@ import {FontAwesome, Feather, AntDesign} from '@expo/vector-icons';
 import {AuthContext} from "../providers/AuthProvider";
 
 import * as firebase from "firebase";
+import 'firebase/firestore';
 import Loading from "../components/Loading";
 
 const SigninScreen = ({navigation}) => {

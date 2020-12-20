@@ -9,6 +9,7 @@ import HeaderHome from "../components/HeaderHome";
 import getPosts from "../requests/Posts";
 import * as firebase from "firebase";
 import "firebase/firestore";
+import '@firebase/auth'
 
 const HomeScreen = (props) => {
 
